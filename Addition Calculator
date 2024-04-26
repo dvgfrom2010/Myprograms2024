@@ -1,0 +1,13 @@
+def add(num1 , num2):
+  result = int(num1) + int(num2)
+  return result
+
+
+def main():
+  num1 = input("What's x ? ")
+  num2 = input("What's y? ")
+  end = add(num1 , num2 )
+  print(end)
+
+main()
+
